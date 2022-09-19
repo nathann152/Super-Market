@@ -1,0 +1,23 @@
+form {
+    width: 300px;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+select, input, button {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+span {
+    position: absolute;
+    color: red;
+    margin: 0 20px;
+}

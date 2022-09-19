@@ -1,0 +1,11 @@
+Online Store
+--------------
+Sat Sep 17 2022 21:36:27 GMT-1200 (GMT-12:00)
+--------------
+Name |    Price | 
+ ------------------
+actimel                 24
+,butter                 8
+,eggs                 2
+--------------
+Total Price : 34 $

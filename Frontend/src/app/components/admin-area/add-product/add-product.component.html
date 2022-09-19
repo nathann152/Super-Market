@@ -1,0 +1,31 @@
+<div>
+
+    <form (ngSubmit)="send()" ngNativeValidate>
+
+        <label>Select Area: </label>
+        <select name="categoryId" [(ngModel)]="product.categoryId" required>
+            <option selected disabled>Select Category</option>
+            <option *ngFor="let c of categories" [value]="c._id">{{c.name}}</option>
+        </select>
+
+        <label>Name: </label>
+        <input type="text" name="name" [(ngModel)]="product.name"  #nameControl="ngModel" required minlength="3" maxlength="100" />
+        <span *ngIf="nameControl.errors?.['required'] && nameControl.touched">Missing name</span>
+        <span *ngIf="nameControl.errors?.['minlength'] && nameControl.touched">Name too short</span>
+
+        <label>Price: </label>
+        <input type="number" name="price" [(ngModel)]="product.price" #priceControl="ngModel" required min="0" max="1000" />
+        <span *ngIf="priceControl.errors?.['required'] && priceControl.touched">Missing price</span>
+        <span *ngIf="priceControl.errors?.['min'] && priceControl.touched">Price can't be negative</span>
+        <span *ngIf="priceControl.errors?.['max'] && priceControl.touched">Price can't exceed 1000</span>
+
+        <label>Image: </label>
+        <input type="file" accept="images/*" #imageFile>
+
+        
+
+        <button>Add</button>
+
+    </form>
+
+</div>

@@ -1,0 +1,14 @@
+Online Store
+--------------
+Sun Sep 18 2022 20:11:47 GMT-1200 (GMT-12:00)
+--------------
+Name |    Price | 
+ ------------------
+tomato                 7
+,Rib-Eye                 75
+,butter                 8
+,actimel                 8
+,eggs                 10
+,milk                 3.5
+--------------
+Total Price : 111.5 $

@@ -1,0 +1,36 @@
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" routerLink='/home'>Online Store</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+            <p class="nav-link" *ngIf='!user'>Hello guest ! </p>
+            <p class="nav-link" *ngIf='user'>Hello - <br> {{user.firstName}}  {{user.lastName}}</p>
+        </li>
+        </ul>
+    </div>
+    
+    <form #myLoginForm='ngForm' class="form-inline" *ngIf='!user'>
+        <label>
+            <input class="form-control" type="email" name='email' placeholder="Email" required minlength='4' #emailInput='ngModel'
+                [(ngModel)]='loginForm.email' email='true'>
+            <span *ngIf="emailInput.errors?.['required'] && emailInput.touched">Missing Email</span>
+            <span *ngIf="emailInput.errors?.['email'] && emailInput.touched">Enter valid email !</span>
+        </label>
+        <label>
+            <input class="form-control" type="password" name='password' placeholder="Password" required minlength='4'
+                #passwordInput='ngModel' [(ngModel)]='loginForm.password'>
+            <span *ngIf="passwordInput.errors?.['required'] && passwordInput.touched">Missing password</span>
+            <span *ngIf="passwordInput.errors?.['minlength'] && passwordInput.touched">Password too short
+            </span>
+        </label>
+        <button type="button" class="btn btn-light" [disabled]="myLoginForm.form.invalid" (click)='login()'>Login</button>
+    <a routerLink="/register">
+        <button type="button" class="btn btn-dark">Register</button>
+    </a>
+    </form>
+    <button type="button" class="btn btn-danger" (click)='logout()' *ngIf='user'>Logout</button>
+  </nav>
+  <hr class="Box">

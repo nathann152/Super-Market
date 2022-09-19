@@ -1,0 +1,19 @@
+Online Store
+--------------
+Sat Sep 17 2022 21:29:39 GMT-1200 (GMT-12:00)
+--------------
+Name |    Price | 
+ ------------------
+entrecote                 15
+,brisket                 11.5
+,salmon                 90
+,chiken                 10
+,orange                 3
+,cucumber                 1.2
+,tomato                 1
+,butter                 40
+,actimel                 8
+,eggs                 2
+,milk                 3.5
+--------------
+Total Price : 185.2 $

@@ -1,0 +1,32 @@
+p{
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0;
+}
+.navbar-dark .navbar-brand {
+    color: #fff;
+    font-size: 26px;
+    color: #090b09;
+}
+input.form-control.ng-untouched.ng-pristine.ng-invalid{
+    margin: 5px;
+}
+button.btn{
+    margin: 10px;
+}
+
+nav{
+    height: 60px;
+ }
+.navbar-dark .navbar-nav .nav-link {
+        color: #fff;
+        font-size: 20px;
+        color: #000000;
+}
+.Box{
+    margin: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+

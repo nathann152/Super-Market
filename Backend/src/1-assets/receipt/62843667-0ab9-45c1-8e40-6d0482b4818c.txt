@@ -1,0 +1,10 @@
+Online Store
+--------------
+Sun Sep 18 2022 20:15:11 GMT-1200 (GMT-12:00)
+--------------
+Name |    Price | 
+ ------------------
+Rib-Eye                 15
+,brisket                 11.5
+--------------
+Total Price : 26.5 $

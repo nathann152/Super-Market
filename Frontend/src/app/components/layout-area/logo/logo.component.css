@@ -1,0 +1,54 @@
+img {
+    height: 440px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    text-align: center;
+}
+
+.textImage {
+    position: absolute;
+    top: 150px;
+    left: 37%;
+    background: #f8f8f8;
+    padding: 60px;
+    border: 5px solid #000000;
+    box-shadow: 4px 5px 6px 1px #c7c7c7;
+    height: 100px;
+}
+
+p{
+    margin: 0;
+    border-top: 1px solid #d8d5da;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 17px;
+    color: #6b696d;
+}
+
+h1{
+    color: #121212;
+}
+
+.row {
+    position: absolute;
+    top: 400px;
+    left: 34%;
+    width: 800px;
+}
+
+.alert {
+    margin: 10px;
+}
+.box{
+    background-color:rgba(12, 98, 172, 0.5);
+}
+.span{
+    color: #000000;
+    font-weight: 500;
+}

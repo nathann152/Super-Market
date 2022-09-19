@@ -1,0 +1,16 @@
+Online Store
+--------------
+Sun Sep 18 2022 15:56:46 GMT-1200 (GMT-12:00)
+--------------
+Name |    Price | 
+ ------------------
+butter                 8
+,actimel                 8
+,eggs                 2
+,milk                 3.5
+,entrecote                 15
+,brisket                 11.5
+,salmon                 18
+,chiken                 10
+--------------
+Total Price : 76 $

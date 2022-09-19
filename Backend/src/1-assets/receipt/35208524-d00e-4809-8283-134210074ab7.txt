@@ -1,0 +1,10 @@
+Online Store
+--------------
+Sat Sep 17 2022 23:01:27 GMT-1200 (GMT-12:00)
+--------------
+Name |    Price | 
+ ------------------
+butter                 8
+,actimel                 16
+--------------
+Total Price : 24 $
